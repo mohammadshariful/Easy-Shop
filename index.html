@@ -92,8 +92,8 @@
      </header>
     <!-- Header section end -->
     <!-- products list start -->
-    <section class="container">
-        <ul class="list-unstyled d-flex justify-content-around">
+    <section class="container products-list ">
+        <ul class="list-unstyled d-flex justify-content-around flex-wrap">
             <li class="text-center custom-color">
                 <i class="fas fa-tshirt"></i>
                 <h6>Cloth</h6>
@@ -135,13 +135,52 @@
         <div class="container">
             <div class="row">
                 <!-- left part -->
-                <div class="col-lg-2">dd</div>
+                <div class="col-lg-2 my-4 col-md-6 ">
+                    
+                    <div class="accordion" id="depaetments">
+                     
+                        <div class="accordion-item">
+                          <h2 class="accordion-header fw-bolder" id="accordion-one">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                              Departments
+                            </button>
+                          </h2>
+                          <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="accordion-one" data-bs-parent="#depaetments">
+                            <div class="accordion-body">
+                             <div class="accordion" id="catagorey">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header fw-bolder" id="accordion-two">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                          Catagory
+                                        </button>
+                                      </h2>
+                                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="accordion-two" data-bs-parent="#catagorey">
+                                        <div class="accordion-body">
+                                           <ul class="list-unstyled">
+                                               <li>Cloth</li>
+                                               <li>Entertainment</li>
+                                               <li>Sports</li>
+                                           </ul>
+                                        </div>
+                                      </div>
+                                </div>
+                             </div>
+
+
+
+
+
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
                 <!-- right parat -->
                 <div class="col-lg-10">
                     
                     <section class="border-start border-3">
                         <!-- part one start -->
-                        <div class="d-flex justify-content-between">
+                        <div class="d-flex justify-content-between " id="part-one">
                             <!-- seclection area start -->
                             <div class="w-50 d-flex">
                                 <select class="form-select form-select-sm m-2" aria-label=".form-select-sm ">
@@ -198,7 +237,7 @@
                     <!-- part two end -->
                     <!-- third part start -->
                     <section class="my-4 mx-2">
-                        <div class="row row-cols-sm-1  row-cols-md-2 row-cols-lg-4 g-4">
+                        <div class="row row-cols-1  row-cols-md-2 row-cols-lg-4 g-4">
                             <!-- product details-1 -->
                             <div class="col">
                               <div class="card h-100 shadow-sm">
@@ -595,7 +634,7 @@
                     <!-- third part end -->
                     <!-- fourth part start -->
                     <section class="my-5" >
-                        <div class="row g-3 text-center mx-2 row-cols-sm-1 row-cols-md-2 row-cols-lg-3 ">
+                        <div class="row g-3 text-center mx-2 row-cols-1 row-cols-md-2 row-cols-lg-3 ">
                             <div class="col">
                                 <!-- card-1 -->
                                 <div class="border p-3 shadow-sm">
