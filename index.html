@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- fontasesome link -->
+    <script src="https://kit.fontawesome.com/31b1cf5ca4.js" crossorigin="anonymous"></script>
+    <title>Easy Shop</title>
+    <!-- bootstrap stylesheet -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <!-- custom css -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- favicon link -->
+    <link
+      rel="shortcut icon"
+      href="./img/favicon-32x32.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <!-- Header section start -->
+    <header class="mb-3">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand fw-bolder fs-1" href="#"
+          ><span class="text-primary">Easy</span>Shop</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+          <ul
+            class="navbar-nav mb-2 mb-lg-0 ms-auto d-flex justify-content-around align-items-center fw-bold"
+          >
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Sell On Shop</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Register</a>
+            </li>
+            <li class="nav-item form-item">
+              <a class="nav-link" href="#">
+                  <input type="search" class="form-control rounded-pill" >
+              </a>
+              <span>
+                  <i class="fas fa-search"></i>
+              </span>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link custom-color" href="#">Consumer Electronics</a>
+            </li>
+            <li class="nav-item">
+              <div class="d-flex  align-items-center user-info">
+                <a
+                  class="nav-link custom-border text-primary m-2 fw-bold"
+                  href="#"
+                  >Sign in</a
+                >
+            
+                <button type="button" class=" custom-border position-relative fw-bold text-primary m-2">
+                  My Card
+                  <span
+                    class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
+                  >
+                    5
+                </button>
+
+                <a class="nav-link m-2" href="#"
+                  ><img
+                    class="rounded-circle user"
+                    src="./img/user-profile.png"
+                    alt=""
+                /></a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+</header>
+    <!-- Header section end -->
+    <!-- products list start -->
+    <section class="container">
+        <ul class="list-unstyled d-flex justify-content-around">
+            <li class="text-center custom-color">
+                <i class="fas fa-tshirt"></i>
+                <h6>Cloth</h6>
+            </li>
+            <li class="text-center">
+                <i class="fas fa-film"></i>
+                <h6>Entertainment</h6>
+            </li>
+            <li class="text-center">
+                <i class="fas fa-music"></i>
+                <h6>Music</h6>
+            </li>
+            <li class="text-center">
+                <i class="fas fa-running"></i>
+                <h6>Sports</h6>
+            </li>
+            <li class="text-center">
+                <i class="fas fa-sink"></i>
+                <h6>Kitchen Accessories</h6>
+            </li>
+            <li class="text-center">
+                <i class="fas fa-helicopter"></i>
+                <h6>Travel Equipment</h6>
+            </li>
+            <li class="text-center">
+                <i class="fas fa-bolt"></i>
+                <h6>Electrical Tools</h6>
+            </li>
+            <li class="text-center">
+                <i class="fas fa-snowflake"></i>
+                <h6>Vintage</h6>
+            </li>
+        
+            
+        </ul>
+    </section>
+    <!-- products list end -->
+    <main class="my-5">
+        <div class="container">
+            <div class="row">
+                <!-- left part -->
+                <div class="col-lg-2">dd</div>
+                <!-- right parat -->
+                <div class="col-lg-10">
+                    
+                    <section class="border-start border-3">
+                        <!-- part one start -->
+                        <div class="d-flex justify-content-between">
+                            <!-- seclection area start -->
+                            <div class="w-50 d-flex">
+                                <select class="form-select form-select-sm m-2" aria-label=".form-select-sm ">
+                                    <option selected>Useless First</option>
+                                    <option value="1">One</option>
+                                  </select>
+                                <select class="form-select form-select-sm m-2" aria-label=".form-select-sm ">
+                                    <option selected>Condition</option>
+                                    <option value="1">One</option>
+                                  </select>
+                                <select class="form-select form-select-sm m-2" aria-label=".form-select-sm ">
+                                    <option selected>Delivery Option</option>
+                                    <option value="1">One</option>
+                                  </select>
+                            <!-- seclection area end -->
+
+                            </div>
+                            <div class="d-flex w-50 justify-content-around">
+                                <!-- button area start -->
+                                <div>
+                                    <div class="btn-group" role="group" aria-label="Basic example">
+                                        <button type="button" class="btn  btn-outline-primary  bg-white text-dark">show all</button>
+                                        <button type="button" class="btn btn-primary">action</button>
+                                        <button type="button" class="btn btn-outline-primary  bg-white text-dark">buy now</button>
+                                      </div>
+                                </div>
+                                <!-- button area end -->
+                                <!-- icon area start -->
+                                <div class="d-flex">
+                                    <p class="m-2">
+                                        <i class="fas fa-grip-vertical"></i>
+                                    </p>
+                                    <p class="m-2">
+                                        <i class="fas fa-th-large"></i>
+                                    </p>
+                                </div>
+                                <!-- icon area end -->
+
+                            </div>
+                        </div>
+                    <!-- part one end -->
+                    <!-- part two start -->
+                    <div class="my-3">
+                        <ul class="list-unstyled d-flex flex-wrap align-items-center">
+                            <li class="m-2 fw-bold">Related</li>
+                            <li class="bg-secondary text-white px-2 py-1 m-1 rounded-pill">worldwid</li>
+                            <li class="bg-secondary text-white px-2 py-1 m-1 rounded-pill">under $50</li>
+                            <li class="bg-secondary text-white px-2 py-1 m-1 rounded-pill">kitten</li>
+                            <li class="bg-secondary text-white px-2 py-1 m-1 rounded-pill">plustic plugs</li>
+                            <li class="bg-secondary text-white px-2 py-1 m-1 rounded-pill">pucker shoes</li>
+                            <li class="bg-secondary text-white px-2 py-1 m-1 rounded-pill">vintage typewriter</li>
+                        </ul>
+                    </div>
+                    <!-- part two end -->
+                    <!-- third part start -->
+                    <section class="my-4 mx-2">
+                        <div class="row row-cols-sm-1  row-cols-md-2 row-cols-lg-4 g-4">
+                            <!-- product details-1 -->
+                            <div class="col">
+                              <div class="card h-100 shadow-sm">
+                                
+                                <div class=" rounded p-2  bg-white" >
+                                    <img class="img-fluid" src="./img/product-list/product-1.jpg" alt="">
+                                    <p class="my-2">Vintage Typewriter to post awesome stories about UI design and webdev.</p>
+                                    <h2 class="fw-bolder">$49.50</h2>
+                                    <h6>Eligible for Shipping To Mars or somewhere else</h6>
+                                    <div class="d-flex justify-content-between">
+                                        <!-- star icons start -->
+                                        <small>
+                                            <i class="fas fa-star star-color"></i>
+                                            <i class="fas fa-star star-color"></i>
+                                            <i class="fas fa-star star-color"></i>
+                                            <i class="fas fa-star star-color"></i>
+                                            <i class="fas fa-star-half-alt star-color"></i>
+                                            <span class="mx-1">4.05</span>
+                                        </small>
+                                        <!-- star icons end -->
+                                        <small>
+                                            <a class="custom-color text-decoration-none" href="#">
+                                                <span class="">
+                                                    <i class="far fa-heart"></i>
+                                                </span>
+                                                <span>Watch</span>
+                                            </a>
+                                        </small>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- product details-2 -->
+                            <div class="col">
+                              <div class="card h-100 shadow-sm">
+                                
+                                <div class=" rounded p-2  bg-white" >
+                                    <img class="img-fluid" src="./img/product-list/product-2.jpg" alt="">
+                                    <p class="my-2">Lee Pucker design. Leather botinki for handsome designers. Free shipping.</p>
+                                    <h2 class="fw-bolder">$13.95</h2>
+                                    <h6>1258 bids, 359 watchers
+                                        $5.95 for shipping</h6>
+                                    <div class="d-flex justify-content-between">
+                                        <!-- star icons start -->
+                                        <small>
+                                            <i class="fas fa-star star-color"></i>
+                                            <i class="fas fa-star star-color"></i>
+                                            <i class="fas fa-star star-color"></i>
+                                            <i class="fas fa-star star-color"></i>
+                                            <i class="fas fa-star-half-alt star-color"></i>
+                                            <span class="mx-1">4.56</span>
+                                        </small>
+                                        <!-- star icons end -->
+                                        <small>
+                                            <a class="custom-color text-decoration-none" href="#">
+                                                <span class="">
+                                                    <i class="far fa-heart"></i>
+                                                </span>
+                                                <span>Watch</span>
+                                            </a>
+                                        </small>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- product details-3 -->
+                            <div class="col">
+                              <div class="card h-100 shadow-sm">
+                                
+                                <div class=" rounded p-2  bg-white" >
+                                    <img class="img-fluid" src="./img/product-list/product-3.jpg" alt="">
+                                    <p class="my-2">Timesaving kitten to save months on development. Playful, cute, cheap!</p>
+                                    <h2 class="fw-bolder">$128.99</h2>
+                                    <h6>Eligible for nothing :(</h6>
+                                    <div class="d-flex justify-content-between">
+                                        <!-- star icons start -->
+                                        <small>
+                                            <i class="fas fa-star star-color"></i>
+                                            <i class="fas fa-star star-color"></i>
+                                            <i class="fas fa-star star-color"></i>
+                                            <i class="fas fa-star star-color"></i>
+                                            <i class="fas fa-star-half-alt star-color"></i>
+                                            <span class="mx-1">4.87</span>
+                                        </small>
+                                        <!-- star icons end -->
+                                        <small>
+                                            <a class="custom-color text-decoration-none" href="#">
+                                                <span class="">
+                                                    <i class="far fa-heart"></i>
+                                                </span>
+                                                <span>Watch</span>
+                                            </a>
+                                        </small>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- product details-4 -->
+                            <div class="col">
+                              <div class="card h-100 shadow-sm">
+                                
+                                <div class=" rounded p-2  bg-white" >
+                                    <img class="img-fluid" src="./img/product-list/product-4.jpg" alt="">
+                                    <p class="my-2">Plastic useless plugs and tubes for high-fidelity prototyping. Fit & Eat!</p>
+                                    <h2 class="fw-bolder">$12.48</h2>
+                                    <h6>Wordwide shitting available
+                                        Buyers protection possible!</h6>
+                                    <div class="d-flex justify-content-between">
+                                        <!-- star icons start -->
+                                        <small>
+                                            <i class="fas fa-star star-color"></i>
+                                            <i class="fas fa-star star-color"></i>
+                                            <i class="fas fa-star star-color"></i>
+                                            <i class="fas fa-star star-color"></i>
+                                            <i class="fas fa-star-half-alt star-color"></i>
+                                            <span class="mx-1">4.99</span>
+                                        </small>
+                                        <!-- star icons end -->
+                                        <small>
+                                            <a class="custom-color text-decoration-none" href="#">
+                                                <span class="">
+                                                    <i class="far fa-heart"></i>
+                                                </span>
+                                                <span>Watch</span>
+                                            </a>
+                                        </small>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- product details-5 -->
+                            <div class="col">
+                              <div class="card h-100 shadow-sm">
+                                
+                                <div class=" rounded p-2  bg-white" >
+                                    <img class="img-fluid" src="./img/product-list/product-5.jpg" alt="">
+                                    <p class="my-2">Creativity stimulating lotion. Drink every morning to generate better ideas!</p>
+                                    <h2 class="fw-bolder">$12.48</h2>
+                                    <h6>Wordwide shifting available
+                                        Buyers protection possible!</h6>
+                                    <div class="d-flex justify-content-between">
+                                        <!-- star icons start -->
+                                        <small>
+                                            <i class="fas fa-star star-color"></i>
+                                            <i class="fas fa-star star-color"></i>
+                                            <i class="fas fa-star star-color"></i>
+                                            <i class="fas fa-star star-color"></i>
+                                            <i class="fas fa-star-half-alt star-color"></i>
+                                            <span class="mx-1">4.56</span>
+                                        </small>
+                                        <!-- star icons end -->
+                                        <small>
+                                            <a class="custom-color text-decoration-none" href="#">
+                                                <span class="">
+                                                    <i class="far fa-heart"></i>
+                                                </span>
+                                                <span>Watch</span>
+                                            </a>
+                                        </small>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- product details-6 -->
+                            <div class="col">
+                              <div class="card h-100 shadow-sm">
+                                
+                                <div class=" rounded p-2  bg-white" >
+                                    <img class="img-fluid" src="./img/product-list/product-6.jpg" alt="">
+                                    <p class="my-2">Prototyping items to create a lot if useless things...</p>
+                                    <h2 class="fw-bolder">$128.99</h2>
+                                    <h6>Showcasing onHovered state</h6>
+                                    <div class="d-flex justify-content-between">
+                                        <!-- star icons start -->
+                                        <small>
+                                            <i class="fas fa-star star-color"></i>
+                                            <i class="fas fa-star star-color"></i>
+                                            <i class="fas fa-star star-color"></i>
+                                            <i class="fas fa-star star-color"></i>
+                                            <i class="fas fa-star-half-alt star-color"></i>
+                                            <span class="mx-1">4.86</span>
+                                        </small>
+                                        <!-- star icons end -->
+                                        <small>
+                                            <a class="custom-color text-decoration-none" href="#">
+                                                <span class="">
+                                                    <i class="far fa-heart"></i>
+                                                </span>
+                                                <span>Watch</span>
+                                            </a>
+                                        </small>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- product details-7 -->
+                            <div class="col">
+                              <div class="card h-100 shadow-sm">
+                                
+                                <div class=" rounded p-2  bg-white" >
+                                    <img class="img-fluid" src="./img/product-list/product-7.jpg" alt="">
+                                    <p class="my-2">John Von Ebalkin SPRING </p>
+                                    <h2 class="fw-bolder">$13.05</h2>
+                                    <h6>1258 bids, 359 watchers
+                                        $5.95 for shipping</h6>
+                                    <div class="d-flex justify-content-between">
+                                        <!-- star icons start -->
+                                        <small>
+                                            <i class="fas fa-star star-color"></i>
+                                            <i class="fas fa-star star-color"></i>
+                                            <i class="fas fa-star star-color"></i>
+                                            <i class="fas fa-star star-color"></i>
+                                            <i class="fas fa-star-half-alt star-color"></i>
+                                            <span class="mx-1">4.56</span>
+                                        </small>
+                                        <!-- star icons end -->
+                                        <small>
+                                            <a class="custom-color text-decoration-none" href="#">
+                                                <span class="">
+                                                    <i class="far fa-heart"></i>
+                                                </span>
+                                                <span>Watch</span>
+                                            </a>
+                                        </small>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- product details-8 -->
+                            <div class="col">
+                              <div class="card h-100 shadow-sm">
+                                
+                                <div class=" rounded p-2  bg-white" >
+                                    <img class="img-fluid" src="./img/product-list/product-8.jpg" alt="">
+                                    <p class="my-2">Envelope, Stripes, Pencil and etc. Purchase this kit today and feel OKAY</p>
+                                    <h2 class="fw-bolder">$9.50</h2>
+                                    <h6>Eligible for Shipping To Mars or somewhere else</h6>
+                                    <div class="d-flex justify-content-between">
+                                        <!-- star icons start -->
+                                        <small>
+                                            <i class="fas fa-star star-color"></i>
+                                            <i class="fas fa-star star-color"></i>
+                                            <i class="fas fa-star star-color"></i>
+                                            <i class="fas fa-star star-color"></i>
+                                            <i class="fas fa-star-half-alt star-color"></i>
+                                            <span class="mx-1">4.77</span>
+                                        </small>
+                                        <!-- star icons end -->
+                                        <small>
+                                            <a class="custom-color text-decoration-none" href="#">
+                                                <span class="">
+                                                    <i class="far fa-heart"></i>
+                                                </span>
+                                                <span>Watch</span>
+                                            </a>
+                                        </small>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- product details-9 -->
+                            <div class="col">
+                              <div class="card h-100 shadow-sm">
+                                
+                                <div class=" rounded p-2  bg-white" >
+                                    <img class="img-fluid" src="./img/product-list/product-9.jpg" alt="">
+                                    <p class="my-2">Professional teadrinking set for every designer and developer</p>
+                                    <h2 class="fw-bolder">$128.99</h2>
+                                    <h6>Eligible for nothing :(</h6>
+                                    <div class="d-flex justify-content-between">
+                                        <!-- star icons start -->
+                                        <small>
+                                            <i class="fas fa-star star-color"></i>
+                                            <i class="fas fa-star star-color"></i>
+                                            <i class="fas fa-star star-color"></i>
+                                            <i class="fas fa-star star-color"></i>
+                                            <i class="fas fa-star-half-alt star-color"></i>
+                                            <span class="mx-1">4.87</span>
+                                        </small>
+                                        <!-- star icons end -->
+                                        <small>
+                                            <a class="custom-color text-decoration-none" href="#">
+                                                <span class="">
+                                                    <i class="far fa-heart"></i>
+                                                </span>
+                                                <span>Watch</span>
+                                            </a>
+                                        </small>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- product details-10 -->
+                            <div class="col">
+                              <div class="card h-100 shadow-sm">
+                                
+                                <div class=" rounded p-2  bg-white" >
+                                    <img class="img-fluid" src="./img/product-list/product-10.jpg" alt="">
+                                    <p class="my-2">One string Bonsai description.</p>
+                                    <h2 class="fw-bolder">$11.68</h2>
+                                    <h6>1258 bids, 359 watchers
+                                        $5.95 for shipping</h6>
+                                    <div class="d-flex justify-content-between">
+                                        <!-- star icons start -->
+                                        <small>
+                                            <i class="fas fa-star star-color"></i>
+                                            <i class="fas fa-star star-color"></i>
+                                            <i class="fas fa-star star-color"></i>
+                                            <i class="fas fa-star star-color"></i>
+                                            <i class="fas fa-star-half-alt star-color"></i>
+                                            <span class="mx-1">4.99</span>
+                                        </small>
+                                        <!-- star icons end -->
+                                        <small>
+                                            <a class="custom-color text-decoration-none" href="#">
+                                                <span class="">
+                                                    <i class="far fa-heart"></i>
+                                                </span>
+                                                <span>Watch</span>
+                                            </a>
+                                        </small>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- product details-11 -->
+                            <div class="col">
+                              <div class="card h-100 shadow-sm">
+                                
+                                <div class=" rounded p-2  bg-white" >
+                                    <img class="img-fluid" src="./img/product-list/product-11.jpg" alt="">
+                                    <p class="my-2">Simply best item in town to shine bright with your Nine Inch Nails</p>
+                                    <h2 class="fw-bolder">$1.25</h2>
+                                    <h6>Eligible for Shipping To Mars or somewhere else</h6>
+                                    <div class="d-flex justify-content-between">
+                                        <!-- star icons start -->
+                                        <small>
+                                            <i class="fas fa-star star-color"></i>
+                                            <i class="fas fa-star star-color"></i>
+                                            <i class="fas fa-star star-color"></i>
+                                            <i class="fas fa-star star-color"></i>
+                                            <i class="fas fa-star-half-alt star-color"></i>
+                                            <span class="mx-1">4.77</span>
+                                        </small>
+                                        <!-- star icons end -->
+                                        <small>
+                                            <a class="custom-color text-decoration-none" href="#">
+                                                <span class="">
+                                                    <i class="far fa-heart"></i>
+                                                </span>
+                                                <span>Watch</span>
+                                            </a>
+                                        </small>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- product details-12 -->
+                            <div class="col">
+                              <div class="card h-100 shadow-sm">
+                                
+                                <div class=" rounded p-2  bg-white" >
+                                    <img class="img-fluid" src="./img/product-list/product-12.jpg" alt="">
+                                    <p class="my-2">KISTOCHKI & KRASIBO. Top cosmetics brand from Chelyabinsk is here!</p>
+                                    <h2 class="fw-bolder">$23.25</h2>
+                                    <h6>1258 bids, 359 watchers
+                                        $5.95 for shipping</h6>
+                                    <div class="d-flex justify-content-between">
+                                        <!-- star icons start -->
+                                        <small>
+                                            <i class="fas fa-star star-color"></i>
+                                            <i class="fas fa-star star-color"></i>
+                                            <i class="fas fa-star star-color"></i>
+                                            <i class="fas fa-star star-color"></i>
+                                            <i class="fas fa-star-half-alt star-color"></i>
+                                            <span class="mx-1">4.56</span>
+                                        </small>
+                                        <!-- star icons end -->
+                                        <small>
+                                            <a class="custom-color text-decoration-none" href="#">
+                                                <span class="">
+                                                    <i class="far fa-heart"></i>
+                                                </span>
+                                                <span>Watch</span>
+                                            </a>
+                                        </small>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                    </section>
+
+                    <!-- third part end -->
+
+
+
+                    </section>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <!-- Bootstrap js link -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
